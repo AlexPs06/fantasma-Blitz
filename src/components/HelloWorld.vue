@@ -219,7 +219,7 @@
   import file3 from '@/assets/txt/cartas3.txt'
   import file5 from '@/assets/txt/cartas5.txt'
   import file7 from '@/assets/txt/cartas7.txt'
-  import file9 from '@/assets/txt/cartas7.txt'
+  import file9 from '@/assets/txt/cartas9.txt'
 
   export default {
     data(){
@@ -372,12 +372,6 @@
         }
 
       },
-      runPythonScript(){
-        console.log("python");
-        exec('../assets/python/main2.py', function(error, stdout, stderr) {
-          console.log(stdout);
-        });
-      },
       CantidadObjetos(i){
 
 
@@ -390,6 +384,7 @@
             break;
           case 7:
             this.getCards(file7)
+            break;
           case 9:
             this.getCards(file9)
             break;
