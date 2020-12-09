@@ -1,5 +1,8 @@
 <template>
-
+  <!-- 
+    Programa hecho por Luis Alejandro Pérez Sarmiento
+    con fines educativos para la materia algoritmos 
+   -->
   <v-container style="padding-left: 0px" class="blue-grey darken-4">
     <!-- {{deck[0]}} -->
      <v-app-bar
